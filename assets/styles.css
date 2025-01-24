@@ -5,13 +5,17 @@ header {
     border-bottom: 1px black solid;
     line-height: 1.6em;
     font-size: 16px;
+    border-right: 20px blueviolet solid;
 }
 
 aside {
     float: right;
     padding-left: 20px;
+    padding-right: 20px;
     text-align: right;
     padding-top: 5px;
+    border-right: 20px violet solid;
+
 }
 
 aside::first-line {
