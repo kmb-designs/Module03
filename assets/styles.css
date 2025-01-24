@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+    font-variant: small-caps;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    line-height: 1.6em;
+    font-size: 16px;
+}
+
+aside {
+    float: right;
+    padding-left: 20px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 34px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1.1px;
+}
+
+article {
+    background: url("../WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+article p {
+    text-align: justify;
+}
+
+article h2 {
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+article section {
+    border-left: 25px green solid;
+    border-top: 2px green solid;
+    border-right: 2px green solid;
+    border-bottom: 2px green solid;
+    background-color: #FFFFEF;
+
+    padding-block: 10px;
+    padding-inline: 15px;
+
+}
+article section a {
+    font-weight: bold;
+}
+
+footer {
+margin-top: 10px;
+color: #bbbdc8;
+font-style: italic;
+text-align: right;
+border-top: #bbbdc8 1px solid;
+}
+footer a:link {
+color: #bbbdc8;
+
+}
