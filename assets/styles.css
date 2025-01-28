@@ -30,7 +30,7 @@ h1 {
 }
 
 article {
-    background: url("../WidgetCoLogo.gif");
+    background: url("../WidgetCoLogo.gif") center;
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 75px;
@@ -48,11 +48,11 @@ article h2 {
 }
 
 article section {
-    border-left: 25px green solid;
-    border-top: 2px green solid;
-    border-right: 2px green solid;
-    border-bottom: 2px green solid;
-    background-color: #FFFFEF;
+    border-left: 25px rgb(111, 183, 205) solid;
+    border-top: 2px  rgb(111, 183, 205) solid;
+    border-right: 2px  rgb(111, 183, 205) solid;
+    border-bottom: 2px  rgb(111, 183, 205) solid;
+    background-color: #e2fbfa;
 
     padding-block: 10px;
     padding-inline: 15px;
